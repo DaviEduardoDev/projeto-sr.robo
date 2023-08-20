@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sr. Robô - Telecomunicações</title>
+</head>
+<body>
+    
+    <img class="foto-perfil" src="img/foto-perfil.png" alt="foto de perfil">
+
+    <main>
+        <div class="apresentacao">
+            <h1>Seu mago dos bits e bytes.</h1>
+            <p>Solucionando problemas técnicos com um sorriso no rosto! :)</p>
+        </div>
+    </main>
+
+    <!-- Integração do chatbot Blip-->
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+                .withAppKey('c3Jyb2JvdGVsZWNvbXVuaWNhY29lczo3Mzg1NGFhMy1jNDJmLTQ1NGMtOWViYi00YTc3NzQzZjFlMWM=')
+                .withButton({"color":"#0096fa","icon":""})
+                .withCustomCommonUrl('https://davi-eduardo-4rus9.chat.blip.ai/')
+                .build();
+        }
+    })();
+</script>
+
+<footer>
+
+    <h2><strong>Curtiu o Sr. Robô?</strong></h4>
+    <p>Siga seu criador nas redes!</p>
+
+    <div class="redes">
+        <ul class="lista-redes">
+            <li>
+                <img src="img/instagram.svg" alt="logo-instagram">
+            </li>
+            <li>
+                <img src="img/linkedin-in.svg" alt="logo-linkedin">
+            </li>
+            <li>
+                <img src="img/github.svg" alt="logo-github">
+            </li>
+        </ul>
+    </div>
+
+</footer>
+
+</body>
+</html>
