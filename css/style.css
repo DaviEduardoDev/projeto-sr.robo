@@ -11,13 +11,8 @@ body {
 }
 .foto-perfil {
     display: flex;
-    justify-content: center;
     margin: 0 auto;
     width: 250px;
-    height: 100%;
-}
-main {
-    width: 70%;
 }
 .apresentacao h1 {
     font-size: 45px;
@@ -40,4 +35,27 @@ footer p {
 li img {
     margin: 15px 15px 15px 0px;
     width: 18px;
+}
+
+@media only screen and (max-device-width: 414px) {
+    .foto-perfil {
+        display: flex;
+        margin: 0 auto;
+        width: 200px;
+    }
+    .apresentacao h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+    .apresentacao p {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    footer h2 {
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 13px;
+    }
 }
